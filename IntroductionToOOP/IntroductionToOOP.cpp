@@ -108,10 +108,10 @@ void main()
     Point A;        //Default constructor
     A.print();
 
-    Point B = 5;    //Single-argument constractor
+    Point B = 5;    //Single-argument constructor
     B.print();
 
-    Point C(8);    //Single-argument constractor
+    Point C(8);    //Single-argument constructor
     C.print();
 
     Point D(5, 8); //Parameted 
