@@ -56,7 +56,7 @@ public:
     }
     //  Method:
 
-    double distance(Point other)
+    double distance(Point& other) const
     {
         double x_distance = this->x - other.x;
         double y_distance = this->y - other.y;
@@ -70,7 +70,7 @@ public:
     }
 };
 
-double distance(Point A, Point B)
+double distance(Point& A, Point& B)
 {
     double x_distance = A.get_x() - B.get_x();
     double y_distance = A.get_y() - B.get_y();
